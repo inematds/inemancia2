@@ -1,0 +1,4 @@
+# Artefatos de desenvolvimento (não fazem parte do site)
+verify-ncia.cjs
+*.log
+.DS_Store
