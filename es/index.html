@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html data-theme="papel" lang="pt-BR">
+<html data-theme="papel" lang="es">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -143,13 +143,13 @@
   ]
 }
   </script>
-<title>INEMA.NCIA — o caderno do canal, virado curso de leitura | INEMA</title>
+<title>INEMA.NCIA — el cuaderno del canal, convertido en curso de lectura | INEMA</title>
 <!-- 3) Fontes -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
 <!-- 4) Camada v3 -->
-<link href="./assets/learn.css" rel="stylesheet"/>
+<link href="../assets/learn.css" rel="stylesheet"/>
 <!-- 5) Ajustes locais da landing (tokens existentes, sem nova cor decorativa) -->
 <style>
     .hero { margin: var(--s7) 0 var(--s8); }
@@ -198,56 +198,56 @@
     @media (max-width: 1080px) { .stand .progress-line { width: 90px; } }
   </style>
 <link href="https://inematds.github.io/inemancia2/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/inemancia2/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/inemancia2/es/" hreflang="es" rel="alternate"/></head>
-<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="./" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="en/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
-<a class="skip" href="#reading">Pular para o conteudo</a>
+<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../en/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="./" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">ES</a></div>
+<a class="skip" href="#reading">Saltar al contenido</a>
 <!-- ===================== READER BAR ===================== -->
 <div class="reader-bar">
 <div class="reader-inner">
 <a class="wordmark" href="https://inema.club" rel="noopener" target="_blank">INEMA<span class="dot">.</span><span class="club">CLUB</span></a>
 <div class="reader-controls" data-inema-appearance="">
-<span class="rc-read"><span data-inema-meter="curso"><span data-inema-meter-frac=""><strong>0</strong> de 27</span></span> percorrido</span>
-<div aria-label="Tema de leitura" class="rc-group" role="group">
+<span class="rc-read"><span data-inema-meter="curso"><span data-inema-meter-frac=""><strong>0</strong> de 27</span></span> recorrido</span>
+<div aria-label="Tema de lectura" class="rc-group" role="group">
 <button aria-pressed="true" class="rc-btn" data-inema-set-theme="papel" type="button">Papel</button>
 <button aria-pressed="false" class="rc-btn" data-inema-set-theme="sepia" type="button">Sepia</button>
-<button aria-pressed="false" class="rc-btn" data-inema-set-theme="escuro" type="button">Escuro</button>
+<button aria-pressed="false" class="rc-btn" data-inema-set-theme="escuro" type="button">Oscuro</button>
 </div>
-<div aria-label="Fonte de leitura" class="rc-group" role="group">
+<div aria-label="Fuente de lectura" class="rc-group" role="group">
 <button aria-pressed="true" class="rc-btn" data-inema-set-font="serif" type="button">Serif</button>
 <button aria-pressed="false" class="rc-btn" data-inema-set-font="sans" type="button">Sans</button>
-<button aria-pressed="false" class="rc-btn" data-inema-set-font="hyperlegible" title="Atkinson Hyperlegible — legibilidade maxima" type="button">Aa↹</button>
+<button aria-pressed="false" class="rc-btn" data-inema-set-font="hyperlegible" title="Atkinson Hyperlegible — legibilidad máxima" type="button">Aa↹</button>
 </div>
-<div aria-label="Tamanho do texto" class="rc-group" role="group">
+<div aria-label="Tamaño del texto" class="rc-group" role="group">
 <button aria-pressed="true" class="rc-btn" data-inema-set-fontscale="100" type="button">A</button>
 <button aria-pressed="false" class="rc-btn" data-inema-set-fontscale="112" type="button">A+</button>
 <button aria-pressed="false" class="rc-btn" data-inema-set-fontscale="125" type="button">A++</button>
 </div>
-<div aria-label="Largura da linha" class="rc-group" role="group">
-<button aria-pressed="false" class="rc-btn" data-inema-set-linewidth="62" type="button">Estreito</button>
+<div aria-label="Ancho de línea" class="rc-group" role="group">
+<button aria-pressed="false" class="rc-btn" data-inema-set-linewidth="62" type="button">Estrecho</button>
 <button aria-pressed="true" class="rc-btn" data-inema-set-linewidth="66" type="button">Medio</button>
-<button aria-pressed="false" class="rc-btn" data-inema-set-linewidth="70" type="button">Largo</button>
+<button aria-pressed="false" class="rc-btn" data-inema-set-linewidth="70" type="button">Amplio</button>
 </div>
 </div>
 </div>
 </div>
 <!-- ===================== MASTHEAD ===================== -->
 <header class="masthead">
-<nav aria-label="Onde voce esta" class="wayfind">
-<span><b>INEMA.NCIA</b> · o essencial e humano</span>
+<nav aria-label="Dónde estás" class="wayfind">
+<span><b>INEMA.NCIA</b> · lo esencial es humano</span>
 <span class="sep">·</span>
-<span>6 trilhas · 27 secoes</span>
+<span>6 rutas · 27 secciones</span>
 <span class="sep">·</span>
 <button data-inema-journey-open="" type="button">
-        Minha jornada <span class="inema-journey-badge" data-count="0" data-inema-journey-badge="">0</span>
+        Mi recorrido <span class="inema-journey-badge" data-count="0" data-inema-journey-badge="">0</span>
 </button>
 </nav>
-<nav aria-label="Trilhas do curso" class="course-nav" data-course-nav="">
-<a class="cn-home" href="index.html">Início</a>
+<nav aria-label="Rutas del curso" class="course-nav" data-course-nav="">
+<a class="cn-home" href="index.html">Inicio</a>
 <span class="cn-sep">·</span>
-<a href="t1.html"><b>1</b> Atenção</a>
-<a href="t2.html"><b>2</b> Percepção</a>
+<a href="t1.html"><b>1</b> Atención</a>
+<a href="t2.html"><b>2</b> Percepción</a>
 <a href="t3.html"><b>3</b> Hábitos</a>
 <a href="t4.html"><b>4</b> Habilidades</a>
-<a href="t5.html"><b>5</b> Persuasão</a>
+<a href="t5.html"><b>5</b> Persuasión</a>
 <a href="t6.html"><b>6</b> Recursos</a>
 </nav>
 </header>
@@ -257,202 +257,202 @@
 <article class="reading" id="reading">
 <!-- HERO -->
 <header class="hero">
-<p class="lede-kicker">INEMA.NCIA · o caderno do canal, virado curso</p>
-<h1>A informacao ficou de graca.<br/>Quem aprendeu a <em>prestar atencao</em> ficou raro — e e nisso que se decide o resto.</h1>
-<p class="sub">Este curso nao promete um atalho. Ele reune, com calma, o que circulou no canal
-            INEMA.NCIA sobre a parte que a maquina nao faz por voce: como a sua atencao e leiloada, como a
-            percepcao distorce o valor, como o habito vence a motivacao — e quais habilidades humanas
-            seguem escassas quando tudo o mais virou commodity.</p>
+<p class="lede-kicker">INEMA.NCIA · el cuaderno del canal, convertido en curso</p>
+<h1>La información pasó a ser gratuita.<br/>Quien aprendió a <em>prestar atención</em> se volvió raro — y ahí es donde se decide el resto.</h1>
+<p class="sub">Este curso no promete un atajo. Reúne, con calma, lo que circuló por el canal
+            INEMA.NCIA sobre lo que la máquina no hace por ti: cómo se subasta tu atención, cómo la
+            percepción distorsiona el valor, cómo el hábito vence a la motivación y qué habilidades humanas
+            siguen siendo escasas cuando todo lo demás se convirtió en una mercancía.</p>
 <div class="cta-row">
-<a class="cta-primary" href="t1.html">Comecar pela Trilha 1 <span class="arr">→</span></a>
-<span class="cta-low">ou, sem compromisso, <a href="t1-1.html#topico-1">ler so a primeira secao</a> antes.</span>
+<a class="cta-primary" href="t1.html">Empezar por la Ruta 1 <span class="arr">→</span></a>
+<span class="cta-low">o, sin compromiso, <a href="t1-1.html#topico-1">leer solo la primera sección</a> antes.</span>
 </div>
-<span class="cta-note">Sem cadastro · abre direto · seu progresso fica so no seu navegador.</span>
+<span class="cta-note">Sin registro · se abre directamente · tu progreso queda solo en tu navegador.</span>
 <div class="stand">
-<span class="lbl">Seu percurso</span>
+<span class="lbl">Tu recorrido</span>
 <span data-inema-meter="curso">
-<span data-inema-meter-frac=""><strong>0</strong> de 27</span> secoes
+<span data-inema-meter-frac=""><strong>0</strong> de 27</span> secciones
               <span class="progress-line"><span class="progress-line__fill" data-inema-meter-fill=""></span></span>
 </span>
-<button data-inema-journey-open="" style="font-family:var(--mono);font-size:0.74rem;background:none;border:0;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:2px;" type="button">continuar de onde parei</button>
+<button data-inema-journey-open="" style="font-family:var(--mono);font-size:0.74rem;background:none;border:0;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:2px;" type="button">continuar desde donde me quedé</button>
 </div>
 </header>
 <!-- O PORQUE -->
 <section data-inema-module="landing" data-inema-topic="modulo-landing#topico-porque" data-inema-track="1" id="topico-porque">
 <div class="section-mark">
-<span class="where">Por que isto existe</span><span>·</span><span>Leia antes do indice</span>
+<span class="where">Por qué existe esto</span><span>·</span><span>Lee antes del índice</span>
 </div>
-<h2 class="head"><span class="num">§</span>Um caderno de conversas, nao um infoproduto</h2>
+<h2 class="head"><span class="num">§</span>Un cuaderno de conversaciones, no un infoproducto</h2>
 <div class="prose">
-<p class="lede" data-inema-block="landing-porque-p1">O INEMA.NCIA nasceu como um canal de Telegram —
-              fragmentos soltos sobre neurociencia da atencao, percepcao, habito, persuasao e as habilidades que
-              sobram quando a IA assume o resto.<span class="sidenote-ref">1</span> O problema do formato chat e que
-              a ideia boa rola para cima e some. Este curso recolhe esses fragmentos, separa o que e sinal do que
-              era so link, e os recompoe como um texto que se le com calma.</p>
-<p data-inema-block="landing-porque-p2">A aposta e a mesma do canal: nenhuma formula magica, nenhuma
-              promessa de transformacao em trinta dias. Sao seis trilhas curtas e fundas — da neurociencia do
-              foco ate a psicologia viral — e cada uma se le como uma sessao, no seu ritmo, com o detalhe
-              dificil guardado na margem para quando voce quiser.</p>
+<p class="lede" data-inema-block="landing-porque-p1">INEMA.NCIA nació como un canal de Telegram —
+              fragmentos sueltos sobre neurociencia de la atención, percepción, hábito, persuasión y las habilidades que
+              quedan cuando la IA se encarga del resto.<span class="sidenote-ref">1</span> El problema del formato de chat es que
+              la buena idea se desplaza hacia arriba y desaparece. Este curso reúne esos fragmentos, separa lo que es una señal de lo que
+              era solo un enlace y los recompone en un texto que se lee con calma.</p>
+<p data-inema-block="landing-porque-p2">La apuesta es la misma del canal: ninguna fórmula mágica, ninguna
+              promesa de transformación en treinta días. Son seis rutas breves y profundas — desde la neurociencia del
+              enfoque hasta la psicología viral — y cada una se lee como una sesión, a tu ritmo, con el detalle
+              difícil guardado en el margen para cuando quieras.</p>
 </div>
 <details class="go-deeper">
-<summary><span class="chev">▸</span> Indo mais fundo: por que “humano” e o fio condutor
+<summary><span class="chev">▸</span> Profundizando: por qué “humano” es el hilo conductor
               <span class="opt">opcional</span></summary>
 <div class="inner">
-<p>Camada opcional — o indice abaixo ja basta para comecar. A medida que a maquina escreve,
-                resume e gera, o diferencial migra para o que ela nao faz: decidir onde colocar a atencao, ler a
-                propria percepcao, sustentar um habito sem aplauso, persuadir sem manipular. Quase todo o canal gira,
-                no fundo, em torno dessa unica tese — e e ela que organiza as seis trilhas.</p>
+<p>Capa opcional — el índice de abajo basta para empezar. A medida que la máquina escribe,
+                resume y genera, la diferencia pasa a estar en lo que no hace: decidir dónde poner la atención, leer la
+                propia percepción, mantener un hábito sin aplausos, persuadir sin manipular. Casi todo el canal gira,
+                en el fondo, en torno a esta única tesis — y es la que organiza las seis rutas.</p>
 </div>
 </details>
 </section>
 <!-- CURRICULO COMO INDICE -->
 <section data-inema-module="landing" data-inema-topic="modulo-landing#topico-indice" data-inema-track="1" id="topico-indice">
 <div class="section-mark">
-<span class="where">O indice</span><span>·</span><span>6 trilhas · 27 secoes</span>
+<span class="where">El índice</span><span>·</span><span>6 rutas · 27 secciones</span>
 </div>
-<h2 class="head"><span class="num">§</span>O que voce vai estudar</h2>
+<h2 class="head"><span class="num">§</span>Qué vas a estudiar</h2>
 <div class="curriculo">
 <div class="track-line">
 <span class="track-tag">INEMA.NCIA</span>
-<h3 class="track-title">Seis trilhas, dez modulos</h3>
-<span class="track-meta">27 secoes · leitura no seu ritmo</span>
+<h3 class="track-title">Seis rutas, diez módulos</h3>
+<span class="track-meta">27 secciones · lectura a tu ritmo</span>
 </div>
 <article class="idx-mod">
-<p class="idx-head"><span class="idx-num">Trilha 1</span><a class="idx-title" href="t1.html">Neurociencia da Atencao &amp; do Foco</a></p>
-<p class="idx-why">Por que a sua atencao e leiloada, como o vicio sequestra a recompensa e por que a distracao custa mais do que parece.</p>
+<p class="idx-head"><span class="idx-num">Recorrido 1</span><a class="idx-title" href="t1.html">Neurociencia de la atención y el enfoque</a></p>
+<p class="idx-why">Por qué tu atención se subasta, cómo la adicción secuestra la recompensa y por qué la distracción cuesta más de lo que parece.</p>
 <ul class="idx-mods">
 <li class="idx-modline">
-<a class="idx-modlink" href="t1-1.html"><b>Modulo 1-1</b> · Necessidades &amp; Atencao</a>
-<ol class="idx-secs"><li><a href="t1-1.html#topico-1">Necessidades Humanas</a></li><li><a href="t1-1.html#topico-2">Atencao Seletiva e o SRAA</a></li><li><a href="t1-1.html#topico-3">A Neurociencia do Vicio</a></li></ol>
+<a class="idx-modlink" href="t1-1.html"><b>Módulo 1-1</b> · Necesidades y atención</a>
+<ol class="idx-secs"><li><a href="t1-1.html#topico-1">Necesidades humanas</a></li><li><a href="t1-1.html#topico-2">Atención selectiva y el SRAA</a></li><li><a href="t1-1.html#topico-3">La Neurociencia de la Adicción</a></li></ol>
 </li>
 <li class="idx-modline">
-<a class="idx-modlink" href="t1-2.html"><b>Modulo 1-2</b> · A economia da distracao</a>
-<ol class="idx-secs"><li><a href="t1-2.html#topico-1">A Sindrome do Objeto Brilhante (SOS)</a></li><li><a href="t1-2.html#topico-2">Eficiencia x Distracao</a></li><li><a href="t1-2.html#topico-3">2025: a Principal Vulnerabilidade</a></li></ol>
+<a class="idx-modlink" href="t1-2.html"><b>Módulo 1-2</b> · La economía de la distracción</a>
+<ol class="idx-secs"><li><a href="t1-2.html#topico-1">El Síndrome del Objeto Brillante (SOS)</a></li><li><a href="t1-2.html#topico-2">Eficiencia x Distracción</a></li><li><a href="t1-2.html#topico-3">2025: la vulnerabilidad principal</a></li></ol>
 </li>
 </ul>
-<p class="idx-foot"><span>2 modulos</span><span class="idx-dot">·</span><span>6 secoes</span><span class="idx-dot">·</span><a class="idx-open" href="t1.html">Abrir a trilha →</a></p>
+<p class="idx-foot"><span>2 módulos</span><span class="idx-dot">·</span><span>6 secciones</span><span class="idx-dot">·</span><a class="idx-open" href="t1.html">Abrir la ruta →</a></p>
 </article>
 <article class="idx-mod">
-<p class="idx-head"><span class="idx-num">Trilha 2</span><a class="idx-title" href="t2.html">Percepcao &amp; Autoconhecimento</a></p>
-<p class="idx-why">A realidade que voce percebe e uma leitura, nao um fato: autopercepcao, valor, arquetipos e como cada um aprende.</p>
+<p class="idx-head"><span class="idx-num">Recorrido 2</span><a class="idx-title" href="t2.html">Percepción y autoconocimiento</a></p>
+<p class="idx-why">La realidad que percibes es una interpretación, no un hecho: autopercepción, valor, arquetipos y cómo aprende cada persona.</p>
 <ul class="idx-mods">
 <li class="idx-modline">
-<a class="idx-modlink" href="t2-1.html"><b>Modulo 2-1</b> · Percepcao &amp; valor</a>
-<ol class="idx-secs"><li><a href="t2-1.html#topico-1">Como a autopercepcao engana</a></li><li><a href="t2-1.html#topico-2">Percepcao e o valor que ela cria</a></li><li><a href="t2-1.html#topico-3">Arquetipos: os moldes do comportamento</a></li></ol>
+<a class="idx-modlink" href="t2-1.html"><b>Módulo 2-1</b> · Percepción y valor</a>
+<ol class="idx-secs"><li><a href="t2-1.html#topico-1">Cómo engaña la autopercepción</a></li><li><a href="t2-1.html#topico-2">Percepción y el valor que crea</a></li><li><a href="t2-1.html#topico-3">Arquetipos: los moldes del comportamiento</a></li></ol>
 </li>
 <li class="idx-modline">
-<a class="idx-modlink" href="t2-2.html"><b>Modulo 2-2</b> · Como aprendemos</a>
-<ol class="idx-secs"><li><a href="t2-2.html#topico-1">Como o aprendizado se fixa</a></li><li><a href="t2-2.html#topico-2">Modelos para ler cada pessoa</a></li></ol>
+<a class="idx-modlink" href="t2-2.html"><b>Módulo 2-2</b> · Cómo aprendemos</a>
+<ol class="idx-secs"><li><a href="t2-2.html#topico-1">Cómo se consolida el aprendizaje</a></li><li><a href="t2-2.html#topico-2">Modelos para entender a cada persona</a></li></ol>
 </li>
 </ul>
-<p class="idx-foot"><span>2 modulos</span><span class="idx-dot">·</span><span>5 secoes</span><span class="idx-dot">·</span><a class="idx-open" href="t2.html">Abrir a trilha →</a></p>
+<p class="idx-foot"><span>2 módulos</span><span class="idx-dot">·</span><span>5 secciones</span><span class="idx-dot">·</span><a class="idx-open" href="t2.html">Abrir la ruta →</a></p>
 </article>
 <article class="idx-mod">
-<p class="idx-head"><span class="idx-num">Trilha 3</span><a class="idx-title" href="t3.html">Habitos, Motivacao &amp; Determinacao</a></p>
-<p class="idx-why">Motivacao e clima; determinacao e estrutura. A permissao interna e as rotinas que sustentam o jogo longo.</p>
+<p class="idx-head"><span class="idx-num">Recorrido 3</span><a class="idx-title" href="t3.html">Hábitos, motivación y determinación</a></p>
+<p class="idx-why">La motivación es clima; la determinación, estructura. El permiso interno y las rutinas que sostienen el juego a largo plazo.</p>
 <ul class="idx-mods">
 <li class="idx-modline">
-<a class="idx-modlink" href="t3-1.html"><b>Modulo 3-1</b> · Motivacao &amp; determinacao</a>
-<ol class="idx-secs"><li><a href="t3-1.html#topico-1">Motivacao x determinacao</a></li><li><a href="t3-1.html#topico-2">Permissao para ter sucesso</a></li></ol>
+<a class="idx-modlink" href="t3-1.html"><b>Módulo 3-1</b> · Motivación y determinación</a>
+<ol class="idx-secs"><li><a href="t3-1.html#topico-1">Motivación x determinación</a></li><li><a href="t3-1.html#topico-2">Permiso para tener éxito</a></li></ol>
 </li>
 <li class="idx-modline">
-<a class="idx-modlink" href="t3-2.html"><b>Modulo 3-2</b> · Rotinas que sustentam</a>
-<ol class="idx-secs"><li><a href="t3-2.html#topico-1">A regra da primeira hora da manha</a></li><li><a href="t3-2.html#topico-2">As cinco horas semanais</a></li><li><a href="t3-2.html#topico-3">Os dez poderes do sabio</a></li></ol>
+<a class="idx-modlink" href="t3-2.html"><b>Módulo 3-2</b> · Rutinas que sostienen</a>
+<ol class="idx-secs"><li><a href="t3-2.html#topico-1">La regla de la primera hora de la mañana</a></li><li><a href="t3-2.html#topico-2">Las cinco horas semanales</a></li><li><a href="t3-2.html#topico-3">Los diez poderes del sabio</a></li></ol>
 </li>
 </ul>
-<p class="idx-foot"><span>2 modulos</span><span class="idx-dot">·</span><span>5 secoes</span><span class="idx-dot">·</span><a class="idx-open" href="t3.html">Abrir a trilha →</a></p>
+<p class="idx-foot"><span>2 módulos</span><span class="idx-dot">·</span><span>5 secciones</span><span class="idx-dot">·</span><a class="idx-open" href="t3.html">Abrir la ruta →</a></p>
 </article>
 <article class="idx-mod">
-<p class="idx-head"><span class="idx-num">Trilha 4</span><a class="idx-title" href="t4.html">Habilidades &amp; Talentos do Futuro</a></p>
-<p class="idx-why">O que segue escasso quando a maquina assume o resto: habilidades, talentos e perfis que definem um negocio.</p>
+<p class="idx-head"><span class="idx-num">Ruta 4</span><a class="idx-title" href="t4.html">Habilidades y talentos del futuro</a></p>
+<p class="idx-why">Lo que sigue siendo escaso cuando la máquina se encarga del resto: habilidades, talentos y perfiles que definen un negocio.</p>
 <ul class="idx-mods">
 <li class="idx-modline">
-<a class="idx-modlink" href="t4-1.html"><b>Modulo 4-1</b> · Habilidades &amp; talentos do futuro</a>
-<ol class="idx-secs"><li><a href="t4-1.html#topico-1">As 12 habilidades humanas</a></li><li><a href="t4-1.html#topico-2">Os 6 talentos do futuro</a></li><li><a href="t4-1.html#topico-3">Perfis humanos que definem o futuro de um negocio</a></li></ol>
+<a class="idx-modlink" href="t4-1.html"><b>Módulo 4-1</b> · Habilidades y talentos del futuro</a>
+<ol class="idx-secs"><li><a href="t4-1.html#topico-1">Las 12 habilidades humanas</a></li><li><a href="t4-1.html#topico-2">Los 6 talentos del futuro</a></li><li><a href="t4-1.html#topico-3">Perfiles humanos que definen el futuro de un negocio</a></li></ol>
 </li>
 </ul>
-<p class="idx-foot"><span>1 modulos</span><span class="idx-dot">·</span><span>3 secoes</span><span class="idx-dot">·</span><a class="idx-open" href="t4.html">Abrir a trilha →</a></p>
+<p class="idx-foot"><span>1 módulos</span><span class="idx-dot">·</span><span>3 secciones</span><span class="idx-dot">·</span><a class="idx-open" href="t4.html">Abrir la ruta →</a></p>
 </article>
 <article class="idx-mod">
-<p class="idx-head"><span class="idx-num">Trilha 5</span><a class="idx-title" href="t5.html">Persuasao &amp; Psicologia Viral</a></p>
-<p class="idx-why">Por que uma estoria gruda: tecnicas de persuasao, a anatomia do viral, gatilhos no digital e um caso aplicado.</p>
+<p class="idx-head"><span class="idx-num">Ruta 5</span><a class="idx-title" href="t5.html">Persuasión y psicología viral</a></p>
+<p class="idx-why">Por qué una historia se queda: técnicas de persuasión, la anatomía de lo viral, gatillos en el entorno digital y un caso práctico.</p>
 <ul class="idx-mods">
 <li class="idx-modline">
-<a class="idx-modlink" href="t5-1.html"><b>Modulo 5-1</b> · Persuasao &amp; estoria</a>
-<ol class="idx-secs"><li><a href="t5-1.html#topico-1">Persuasao: tecnicas simples</a></li><li><a href="t5-1.html#topico-2">A anatomia da estoria viral (VIRAL ST)</a></li></ol>
+<a class="idx-modlink" href="t5-1.html"><b>Módulo 5-1</b> · Persuasión e historia</a>
+<ol class="idx-secs"><li><a href="t5-1.html#topico-1">Persuasión: técnicas sencillas</a></li><li><a href="t5-1.html#topico-2">La anatomía de la historia viral (VIRAL ST)</a></li></ol>
 </li>
 <li class="idx-modline">
-<a class="idx-modlink" href="t5-2.html"><b>Modulo 5-2</b> · Aplicacao</a>
-<ol class="idx-secs"><li><a href="t5-2.html#topico-1">VIRALST em modo vendas</a></li><li><a href="t5-2.html#topico-2">FGMD: os dez gatilhos no digital</a></li><li><a href="t5-2.html#topico-3">Estudo de caso: o projeto NCIAFlux</a></li></ol>
+<a class="idx-modlink" href="t5-2.html"><b>Módulo 5-2</b> · Aplicación</a>
+<ol class="idx-secs"><li><a href="t5-2.html#topico-1">VIRALST en modo ventas</a></li><li><a href="t5-2.html#topico-2">FGMD: los diez disparadores en el entorno digital</a></li><li><a href="t5-2.html#topico-3">Estudio de caso: el proyecto NCIAFlux</a></li></ol>
 </li>
 </ul>
-<p class="idx-foot"><span>2 modulos</span><span class="idx-dot">·</span><span>5 secoes</span><span class="idx-dot">·</span><a class="idx-open" href="t5.html">Abrir a trilha →</a></p>
+<p class="idx-foot"><span>2 módulos</span><span class="idx-dot">·</span><span>5 secciones</span><span class="idx-dot">·</span><a class="idx-open" href="t5.html">Abrir la ruta →</a></p>
 </article>
 <article class="idx-mod">
-<p class="idx-head"><span class="idx-num">Trilha 6</span><a class="idx-title" href="t6.html">Recursos do Canal</a></p>
-<p class="idx-why">O apendice vivo: boas-vindas, biblioteca de videos e o indice dos topicos originais do Telegram.</p>
+<p class="idx-head"><span class="idx-num">Ruta 6</span><a class="idx-title" href="t6.html">Recursos del canal</a></p>
+<p class="idx-why">El apéndice vivo: bienvenida, biblioteca de videos e índice de los temas originales de Telegram.</p>
 <ul class="idx-mods">
 <li class="idx-modline">
-<a class="idx-modlink" href="t6-1.html"><b>Modulo 6-1</b> · Recursos do Canal</a>
-<ol class="idx-secs"><li><a href="t6-1.html#topico-1">Boas-vindas ao INEMA.NCIA</a></li><li><a href="t6-1.html#topico-2">Biblioteca de Videos</a></li><li><a href="t6-1.html#topico-3">Indice de Topicos do Canal</a></li></ol>
+<a class="idx-modlink" href="t6-1.html"><b>Módulo 6-1</b> · Recursos del canal</a>
+<ol class="idx-secs"><li><a href="t6-1.html#topico-1">Te damos la bienvenida a INEMA.NCIA</a></li><li><a href="t6-1.html#topico-2">Biblioteca de videos</a></li><li><a href="t6-1.html#topico-3">Índice de temas del canal</a></li></ol>
 </li>
 </ul>
-<p class="idx-foot"><span>1 modulos</span><span class="idx-dot">·</span><span>3 secoes</span><span class="idx-dot">·</span><a class="idx-open" href="t6.html">Abrir a trilha →</a></p>
+<p class="idx-foot"><span>1 módulos</span><span class="idx-dot">·</span><span>3 secciones</span><span class="idx-dot">·</span><a class="idx-open" href="t6.html">Abrir la ruta →</a></p>
 </article>
 </div>
 </section>
 <!-- PROVA SOCIAL SOBRIA -->
-<section aria-label="Sobre o material" class="proof">
-<p class="proof-kicker">Sem estrelinhas, sem “+10.000 alunos” — so o espirito do canal</p>
+<section aria-label="Sobre el material" class="proof">
+<p class="proof-kicker">Sin estrellitas, sin «+10.000 alumnos»: solo el espíritu del canal</p>
 <blockquote>
-<p>“Nao da para terceirizar a atencao. A maquina escreve por voce; decidir o que merece o seu
-              foco continua sendo trabalho seu — e e o trabalho que mais paga.”</p>
-<cite><b>INEMA.NCIA</b> · sintese do canal</cite>
+<p>«No puedes tercerizar la atención. La máquina escribe por ti; decidir qué merece tu
+              atención sigue siendo tu trabajo —y es el trabajo que mejor se paga.»</p>
+<cite><b>INEMA.NCIA</b> · síntesis del canal</cite>
 </blockquote>
 <blockquote>
-<p>“Habito e o que sobra quando a motivacao acaba. O resto e clima.”</p>
-<cite><b>Trilha 3</b> · Habitos &amp; Determinacao</cite>
+<p>«El hábito es lo que queda cuando se acaba la motivación. Lo demás es clima.»</p>
+<cite><b>Recorrido 3</b> · Hábitos y determinación</cite>
 </blockquote>
 </section>
 <!-- FECHO -->
-<section aria-label="Comecar" class="closer">
-<p>O jeito mais honesto e simplesmente comecar e ver se o tom serve a voce. A Trilha 1 abre numa pagina
-            de leitura, sem cadastro — e voce pode parar na primeira secao se nao for o seu.</p>
+<section aria-label="Empezar" class="closer">
+<p>La forma más honesta es simplemente empezar y ver si el tono te sirve. La Ruta 1 empieza en una página
+            de lectura, sin registro — y puedes detenerte en la primera sección si no es para ti.</p>
 <div class="cta-row">
-<a class="cta-primary" href="t1.html">Comecar pela Trilha 1 <span class="arr">→</span></a>
-<span class="cta-low">ou <a href="t1-1.html#topico-1">ler so a primeira secao</a> primeiro.</span>
+<a class="cta-primary" href="t1.html">Empezar por la Ruta 1 <span class="arr">→</span></a>
+<span class="cta-low">o <a href="t1-1.html#topico-1">leer solo la primera sección</a> primero.</span>
 </div>
 </section>
 </article>
 <!-- TRILHO DE MARGEM -->
-<aside aria-label="Margem: notas e seu painel de aprendizado" class="margin-rail">
+<aside aria-label="Margen: notas y tu panel de aprendizaje" class="margin-rail">
 <aside data-inema-rail="modulo-landing#topico-porque"></aside>
 <aside class="sidenote" data-kind="fonte">
-<div class="tag">Fonte</div>
-          Todo o conteudo vem do canal de Telegram <b>INEMA.NCIA</b> (27 topicos), recolhido e reescrito como texto
-          de leitura. Cada trilha aponta de volta para os topicos originais na Trilha 6.
+<div class="tag">Fuente</div>
+          Todo el contenido proviene del canal de Telegram <b>INEMA.NCIA</b> (27 temas), recopilado y reescrito como texto
+          de lectura. Cada ruta lleva de vuelta a los temas originales de la Ruta 6.
           <div class="src-line">t.me/c/2414677686</div>
 </aside>
 <aside class="sidenote" data-kind="definicao">
-<div class="tag">Como ler</div>
-<b>Trilha</b> agrupa secoes; cada <b>secao</b> isola uma ideia. Sao 6 trilhas, 27 secoes. Leia em ordem
-          ou abra direto a que te interessa — seu progresso fica salvo no navegador.
+<div class="tag">Cómo leer</div>
+<b>Recorrido</b> agrupa secciones; cada <b>sección</b> aísla una idea. Son 6 rutas, 27 secciones. Lee en orden
+          o abre directamente la que te interesa — tu progreso queda guardado en el navegador.
         </aside>
 <aside data-inema-rail="modulo-landing#topico-indice"></aside>
 <aside class="sidenote" data-kind="fundo">
-<div class="tag">Por que o indice e denso</div>
-          A densidade do indice e prova de seriedade, nao falta de marketing: cada trilha traz o <i>porque</i> por
-          extenso, no lugar de uma lista de beneficios com check verde.
+<div class="tag">Por qué el índice es denso</div>
+          La densidad del índice es una prueba de seriedad, no falta de marketing: cada ruta trae el <i>porque</i> por
+          extenso, en lugar de una lista de beneficios con marcas verdes.
         </aside>
 </aside>
 </div>
 </main>
 <footer class="colophon">
-<span>INEMA.CLUB · Caderno do aluno</span>
+<span>INEMA.CLUB · Cuaderno del alumno</span>
 <span class="pg">INEMA.NCIA — landing</span>
-<span>Composto em Spectral &amp; Source Serif 4</span>
+<span>Compuesto en Spectral &amp; Source Serif 4</span>
 </footer>
-<script src="./assets/learn.js"></script>
+<script src="../assets/learn.js"></script>
 <script>
     if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init(); }
   </script>
